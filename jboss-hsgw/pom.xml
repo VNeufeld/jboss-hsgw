@@ -30,6 +30,7 @@
 		<module>jboss-hsgw-ejb</module>
 		<module>jboss-hsgw-web</module>
 		<module>jboss-hsgw-ear</module>
+		<module>jboss-hsgw-tool</module>
 	</modules>
 
 	<properties>

@@ -21,8 +21,8 @@ import org.jdom2.output.DOMOutputter;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
-import com.bpcs.sunny.util.JDom2Helper;
 import com.bpcs.sunny.util.ServiceFactory;
+import com.bpcs.suny.tool.xml.JDom2Helper;
 
 @RequestScoped
 public class SessionController {

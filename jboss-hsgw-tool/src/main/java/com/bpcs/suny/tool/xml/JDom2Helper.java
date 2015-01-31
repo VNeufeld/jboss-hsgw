@@ -1,4 +1,4 @@
-package com.bpcs.sunny.util;
+package com.bpcs.suny.tool.xml;
 
 import org.jdom2.Document;
 import org.jdom2.input.DOMBuilder;
