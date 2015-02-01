@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestorRequest xsi:noNamespaceSchemaLocation="BookingRequest.xsd" xmlns:com="common"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestorName sessionId="">XML</RequestorName>
+	<RequestorRequestContent>
+		<Request>
+			<com:CalledFrom>5</com:CalledFrom>
+			<DemandedObjects>
+				<DemandedObject>19999</DemandedObject>
+			</DemandedObjects>
+			<Administration>
+				<com:UserType>P</com:UserType>
+				<com:LanguageId>de-DE</com:LanguageId>
+				<com:OperatorId>1</com:OperatorId>
+				<com:SalesChannelId>3</com:SalesChannelId>
+				<com:ProviderId>1</com:ProviderId>
+				<com:Provider>Internet</com:Provider>
+			</Administration>
+			<Agency>
+				<com:AgencyId>1000120</com:AgencyId>
+				<com:AgencyNo>1000060</com:AgencyNo>
+				<com:TerminalId>12</com:TerminalId>
+				<com:TravelAgentId>1000123</com:TravelAgentId>
+				<com:TravelAgentNo>1000063</com:TravelAgentNo>
+				<com:TravelAgentBooking>0</com:TravelAgentBooking>
+			</Agency>
+			<Travel>
+				<com:PromoCode>DH4432</com:PromoCode>
+				<com:Status>13</com:Status>
+				<com:PickUpDate>2010-03-13</com:PickUpDate>
+				<com:DropOffDate>2010-03-20</com:DropOffDate>
+				<com:PickUpTime>10:00</com:PickUpTime>
+				<com:DropOffTime>10:00</com:DropOffTime>
+				<com:TransferTypeId>1</com:TransferTypeId>
+				<com:FlightNo>LH1000</com:FlightNo>
+				<com:PUName>Car Travel Hamburg</com:PUName>
+				<com:PUAddress>Bertholdstraße 13</com:PUAddress>
+				<com:PUPhoneNo>0896106670</com:PUPhoneNo >
+				<com:DOName>Car Travel Hamburg</com:DOName>
+				<com:DOAddress>Bertholdstraße 13</com:DOAddress>
+				<com:DOPhoneNo>0896106670</com:DOPhoneNo>
+				<com:ServiceCatalogId>2</com:ServiceCatalogId>
+				<com:CommissionTariffId>1</com:CommissionTariffId>
+				<com:PickUpStationId>33</com:PickUpStationId>
+				<com:DropOffStationId>33</com:DropOffStationId>
+				<com:PickUpSupplierId>26</com:PickUpSupplierId>
+				<com:DropOffSupplierId>26</com:DropOffSupplierId>
+				<com:TotalPrice>128,33</com:TotalPrice>
+			</Travel>
+			<Car>
+				<com:GroupId>3</com:GroupId>
+				<com:GroupName>CCMR</com:GroupName>
+				<com:Producer>Volvo</com:Producer>
+				<com:Type>Convertible</com:Type>
+				<com:Price>128,33</com:Price>
+				<com:Status>0</com:Status>
+			</Car>
+			<Payment type="1">
+				<CardPayment>
+					<com:CRCardNumber>41********1234</com:CRCardNumber>
+					<com:CRCardVendor>VI</com:CRCardVendor>
+					<com:CRCardType>VI</com:CRCardType>
+					<com:CRCardValidMM>12</com:CRCardValidMM>
+					<com:CRCardValidYY>2013</com:CRCardValidYY>
+					<com:CRCardCvc>123</com:CRCardCvc>
+					<com:OwnerName>Max Mustermann</com:OwnerName>
+				</CardPayment>
+			</Payment>
+			<Driver>
+				<com:TitleId>1</com:TitleId>
+				<com:SalutationId>1</com:SalutationId>
+				<com:Name>Mustermann</com:Name>
+				<com:FirstName>Hans</com:FirstName>
+				<com:Birth>1955-11-13</com:Birth>
+				<com:CommentLong>Comment</com:CommentLong>
+				<com:Comment>Für evtl. Vermieterrückfragen die Fahrertelefonnr 089/234-:998.  </com:Comment>
+			</Driver>
+			<Customer>
+				<com:CustomerNo></com:CustomerNo>
+				<com:SalutationId>1</com:SalutationId>
+				<com:TitleId>Dr.</com:TitleId>
+				<com:FirstName>Max</com:FirstName>
+				<com:Name>Mustermann</com:Name>
+				<com:Street>Herzog-Tassilo-Ring 12</com:Street>
+				<com:Country>Deutschland</com:Country>
+				<com:CountryId>1</com:CountryId>
+				<com:Zip>85601</com:Zip>
+				<com:City>Ebersberg</com:City>
+				<com:Birth>1955-11-13</com:Birth>
+				<Phone>
+					<com:PhoneCountry>0049</com:PhoneCountry>
+					<com:PhonePrefix>08106</com:PhonePrefix>
+					<com:PhoneNo>554477</com:PhoneNo>
+				</Phone>
+				<Fax>
+					<com:FaxCountry>0049</com:FaxCountry>
+					<com:FaxPrefix>08106</com:FaxPrefix>
+					<com:FaxNo>554479</com:FaxNo>
+				</Fax>
+				<com:EMail>Max.Mustermann@test.de</com:EMail>
+				<com:CompanyName>Carmieten AG</com:CompanyName>
+				<com:CompanyVatNo>AB12345</com:CompanyVatNo>
+			</Customer>
+			<Insurances>
+				<Insurance>
+					<com:Id>1</com:Id>
+					<com:Price>7,50</com:Price>
+				</Insurance>
+				<Insurance>
+					<com:Id>2</com:Id>
+					<com:Price>12,90</com:Price>
+				</Insurance>
+			</Insurances>
+			<Extras>
+				<Extra>
+					<com:Id>123</com:Id>
+					<com:Code>WTR</com:Code>
+					<com:Name>Winterreifen</com:Name>
+					<com:Price>8,99</com:Price>
+					<com:Dim1>1</com:Dim1>
+					<com:Dim2>13</com:Dim2>
+					<com:LowerPrice>4,00</com:LowerPrice>
+					<com:UpperPrice>12,00</com:UpperPrice>
+					<com:Currency>EUR</com:Currency>
+					<com:Status>13</com:Status>
+					<com:CurrencyId>1</com:CurrencyId>
+					<com:Info>1</com:Info>
+				</Extra>
+			</Extras>
+			<IncentiveCard>
+				<com:Holder>Max Mustermann</com:Holder>
+				<com:Number>20003000</com:Number>
+				<com:Id>1</com:Id>
+			</IncentiveCard>
+			<Documentation>
+				<EndCustInvoice>
+					<com:Create>1</com:Create>
+					<com:OutputType>4</com:OutputType>
+					<com:Recipient>Max.Mustermann@test.de</com:Recipient>
+				</EndCustInvoice>
+				<Voucher>
+					<com:OutputType>2</com:OutputType>
+					<com:Recipient>+49891234567</com:Recipient>
+				</Voucher>
+			</Documentation>
+		</Request>
+	</RequestorRequestContent>
+</RequestorRequest>

@@ -1,0 +1,2398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestorResult id="0" sessionId="11.07.2007-17:30:22|307568" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GetCarsByLocationResponse.xsd">
+	<Administration>
+		<UserType>P</UserType>
+		<LanguageId>de</LanguageId>
+		<OperatorId>1</OperatorId>
+		<BrokerId>0</BrokerId>
+	</Administration>
+	<CarAvailRSCore>
+		<CarRentalCore PickUpDate="2008-08-13" PickUpTime="09:00" DropOffDate="2008-08-20" DropOffTime="09:00" LocationType="Airport" AirportStationsOnly="true">
+			<PickUpLocation Code="PMI"/>
+			<DropOffLocation Code="PMI"/>
+		</CarRentalCore>
+	</CarAvailRSCore>
+	<CarSupplierAvails>
+		<CarSupplierAvail>
+			<Supplier Id="37" Name="Betacar (Balearic Islands)"/>
+			<OffAirport>0</OffAirport>
+			<OffTerminal>0</OffTerminal>
+			<Station mode="pickUp">
+						<StationId>1234</StationId>
+						<TomaId>MUC01</TomaId>
+			</Station>
+			<Station mode="dropOff">
+				<StationId>1234</StationId>
+				<TomaId>MUC01</TomaId>
+			</Station>
+			<Cars>
+				<Car>
+					<GroupId>424</GroupId>
+					<GroupName>MCMR</GroupName>
+					<TypeId>184</TypeId>
+					<TypeName>Micra</TypeName>
+					<FormId>3</FormId>
+					<FormName/>
+					<Producer>Nissan</Producer>
+					<ACRISS>MCMR</ACRISS>
+					<Doors>3</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>2</Children>
+					<LuggageLarge>0</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<OneWay>
+						<FeeInclusive>0</FeeInclusive>
+						<Fee>80,00</Fee>
+						<Currency>USD</Currency>
+					</OneWay>
+					
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="271.46" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="271.46" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="263.2" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="263.2" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>432</GroupId>
+					<GroupName>IDMR</GroupName>
+					<TypeId>195</TypeId>
+					<TypeName>Primera</TypeName>
+					<FormId>4</FormId>
+					<FormName/>
+					<Producer>Nissan</Producer>
+					<ACRISS>IDMR</ACRISS>
+					<Doors>4</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="710.22" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="710.22" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="0" Name="Basic mit SB">
+							<Price Amount="688.66" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="688.66" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>435</GroupId>
+					<GroupName>PVMR</GroupName>
+					<TypeId>85</TypeId>
+					<TypeName>Scudo 8/9 Sitze</TypeName>
+					<FormId>10</FormId>
+					<FormName/>
+					<Producer>Fiat</Producer>
+					<ACRISS>PVMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>8</Adults>
+					<Children>1</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="1115.52" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="1115.52" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="0" Name="Basic mit SB">
+							<Price Amount="1081.71" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="1081.71" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>427</GroupId>
+					<GroupName>CCMR</GroupName>
+					<TypeId>80</TypeId>
+					<TypeName>Megane</TypeName>
+					<FormId>2</FormId>
+					<FormName/>
+					<Producer>Renault</Producer>
+					<ACRISS>CCMR</ACRISS>
+					<Doors>4</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="403.9" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="403.9" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="391.65" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="391.65" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>430</GroupId>
+					<GroupName>ICMR</GroupName>
+					<TypeId>193</TypeId>
+					<TypeName>A-Klasse</TypeName>
+					<FormId>4</FormId>
+					<FormName/>
+					<Producer>Mercedes</Producer>
+					<ACRISS>ICMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="668.43" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="668.43" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="0" Name="Basic mit SB">
+							<Price Amount="648.13" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="648.13" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>428</GroupId>
+					<GroupName>ECAR</GroupName>
+					<TypeId>190</TypeId>
+					<TypeName>Punto</TypeName>
+					<FormId>1</FormId>
+					<FormName/>
+					<Producer>Fiat</Producer>
+					<ACRISS>ECAR</ACRISS>
+					<Doors>3</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="532.7" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="532.7" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="0" Name="Basic mit SB">
+							<Price Amount="516.53" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="516.53" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>431</GroupId>
+					<GroupName>ICAR</GroupName>
+					<TypeId>194</TypeId>
+					<TypeName>A-Klasse</TypeName>
+					<FormId>4</FormId>
+					<FormName/>
+					<Producer>Mercedes</Producer>
+					<ACRISS>ICAR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="863.38" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="863.38" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="0" Name="Basic mit SB">
+							<Price Amount="837.2" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="837.2" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>434</GroupId>
+					<GroupName>FVMR</GroupName>
+					<TypeId>12</TypeId>
+					<TypeName>Ulysse</TypeName>
+					<FormId>9</FormId>
+					<FormName/>
+					<Producer>Fiat</Producer>
+					<ACRISS>FVMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>7</Adults>
+					<Children>0</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="1016.54" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="1016.54" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="0" Name="Basic mit SB">
+							<Price Amount="985.74" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="985.74" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>300</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>426</GroupId>
+					<GroupName>EDMR</GroupName>
+					<TypeId>4</TypeId>
+					<TypeName>Punto</TypeName>
+					<FormId>1</FormId>
+					<FormName/>
+					<Producer>Fiat</Producer>
+					<ACRISS>EDMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="323.54" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="323.54" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="313.74" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="313.74" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>437</GroupId>
+					<GroupName>CTMR</GroupName>
+					<TypeId>101</TypeId>
+					<TypeName>New Beetle Cabrio</TypeName>
+					<FormId>11</FormId>
+					<FormName/>
+					<Producer>VW</Producer>
+					<ACRISS>CTMR</ACRISS>
+					<Doors>2</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="963.76" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="963.76" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="0" Name="Basic mit SB">
+							<Price Amount="934.5" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="934.5" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>433</GroupId>
+					<GroupName>IFMN</GroupName>
+					<TypeId>81</TypeId>
+					<TypeName>Jimny</TypeName>
+					<FormId>12</FormId>
+					<FormName/>
+					<Producer>Suzuki</Producer>
+					<ACRISS>IFMN</ACRISS>
+					<Doors>3</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>2</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="676.69" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="676.69" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="0" Name="Basic mit SB">
+							<Price Amount="656.18" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="656.18" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>425</GroupId>
+					<GroupName>ECMR</GroupName>
+					<TypeId>186</TypeId>
+					<TypeName>Corsa</TypeName>
+					<FormId>1</FormId>
+					<FormName/>
+					<Producer>Opel</Producer>
+					<ACRISS>ECMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="285.53" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="285.53" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="276.85" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="276.85" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>436</GroupId>
+					<GroupName>IWMR</GroupName>
+					<TypeId>196</TypeId>
+					<TypeName>Xsara Kombi</TypeName>
+					<FormId>4</FormId>
+					<FormName/>
+					<Producer>Citroën</Producer>
+					<ACRISS>IWMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>3</Adults>
+					<Children>2</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="540.4" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="540.4" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="0" Name="Basic mit SB">
+							<Price Amount="524.02" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="524.02" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+			</Cars>
+		</CarSupplierAvail>
+		<CarSupplierAvail>
+			<Supplier Id="6298" Name="Centauro"/>
+			<OffAirport>0</OffAirport>
+			<OffTerminal>1</OffTerminal>
+			<Cars>
+				<Car>
+					<GroupId>584</GroupId>
+					<GroupName>EDMR</GroupName>
+					<TypeId>217</TypeId>
+					<TypeName>Fiesta</TypeName>
+					<FormId>1</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>EDMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="178.2" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="178.2" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>590</GroupId>
+					<GroupName>CCMR</GroupName>
+					<TypeId>295</TypeId>
+					<TypeName>Focus C-MAX</TypeName>
+					<FormId>2</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>CCMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="247.5" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="247.5" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>594</GroupId>
+					<GroupName>FVMR</GroupName>
+					<TypeId>75</TypeId>
+					<TypeName>Galaxy</TypeName>
+					<FormId>9</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>FVMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>7</Adults>
+					<Children>0</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="561.0" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="561.0" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>587</GroupId>
+					<GroupName>CXMR</GroupName>
+					<TypeId>294</TypeId>
+					<TypeName>Focus Diesel</TypeName>
+					<FormId>2</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>CXMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Diesel</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="222.75" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="222.75" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>591</GroupId>
+					<GroupName>IDMR</GroupName>
+					<TypeId>161</TypeId>
+					<TypeName>Mondeo</TypeName>
+					<FormId>4</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>IDMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="420.75" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="420.75" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>582</GroupId>
+					<GroupName>MBMR</GroupName>
+					<TypeId>667</TypeId>
+					<TypeName>Ka</TypeName>
+					<FormId>3</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>MBMR</ACRISS>
+					<Doors>2</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>2</Children>
+					<LuggageLarge>0</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="163.35" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="163.35" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>586</GroupId>
+					<GroupName>EXMR</GroupName>
+					<TypeId>469</TypeId>
+					<TypeName>Fiesta 1,4 Tdci</TypeName>
+					<FormId>1</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>EXMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Diesel</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="181.5" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="181.5" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>592</GroupId>
+					<GroupName>IDAR</GroupName>
+					<TypeId>163</TypeId>
+					<TypeName>Mondeo</TypeName>
+					<FormId>4</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>IDAR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="445.5" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="445.5" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>1484</GroupId>
+					<GroupName>EVMR</GroupName>
+					<TypeId>405</TypeId>
+					<TypeName>Kangoo</TypeName>
+					<FormId>1</FormId>
+					<FormName/>
+					<Producer>Renault</Producer>
+					<ACRISS>EVMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="188.1" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="188.1" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>583</GroupId>
+					<GroupName>EBMR</GroupName>
+					<TypeId>205</TypeId>
+					<TypeName>Fiesta</TypeName>
+					<FormId>1</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>EBMR</ACRISS>
+					<Doors>3</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="171.6" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="171.6" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>595</GroupId>
+					<GroupName>SVMR</GroupName>
+					<TypeId>54</TypeId>
+					<TypeName>Vito</TypeName>
+					<FormId>10</FormId>
+					<FormName/>
+					<Producer>Mercedes</Producer>
+					<ACRISS>SVMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>9</Adults>
+					<Children>0</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="569.25" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="569.25" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>585</GroupId>
+					<GroupName>CDMR</GroupName>
+					<TypeId>63</TypeId>
+					<TypeName>Focus</TypeName>
+					<FormId>2</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>CDMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="211.2" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="211.2" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>588</GroupId>
+					<GroupName>CDAR</GroupName>
+					<TypeId>110</TypeId>
+					<TypeName>Focus</TypeName>
+					<FormId>2</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>CDAR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="338.25" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="338.25" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>1485</GroupId>
+					<GroupName>IVMR</GroupName>
+					<TypeId>200</TypeId>
+					<TypeName>Zafira</TypeName>
+					<FormId>4</FormId>
+					<FormName/>
+					<Producer>Opel</Producer>
+					<ACRISS>IVMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>5</Adults>
+					<Children>0</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="382.8" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="382.8" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>593</GroupId>
+					<GroupName>CTMN</GroupName>
+					<TypeId>296</TypeId>
+					<TypeName>Megane Cabrio</TypeName>
+					<FormId>11</FormId>
+					<FormName/>
+					<Producer>Renault</Producer>
+					<ACRISS>CTMN</ACRISS>
+					<Doors>2</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="0" Name="All Inclusive">
+							<Price Amount="486.75" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="486.75" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>589</GroupId>
+					<GroupName>CWMR</GroupName>
+					<TypeId>174</TypeId>
+					<TypeName>Focus Kombi</TypeName>
+					<FormId>2</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>CWMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="239.25" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="239.25" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+			</Cars>
+		</CarSupplierAvail>
+		<CarSupplierAvail>
+			<Supplier Id="22" Name="Ultramar Cars"/>
+			<OffAirport>0</OffAirport>
+			<OffTerminal>0</OffTerminal>
+			<Cars>
+				<Car>
+					<GroupId>406</GroupId>
+					<GroupName>FTMR</GroupName>
+					<TypeId>458</TypeId>
+					<TypeName>A4 Cabrio</TypeName>
+					<FormId>11</FormId>
+					<FormName/>
+					<Producer>Audi</Producer>
+					<ACRISS>FTMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>2</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="819.49" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="819.49" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="794.64" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="794.64" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>403</GroupId>
+					<GroupName>IFMN</GroupName>
+					<TypeId>111</TypeId>
+					<TypeName>Wrangler</TypeName>
+					<FormId>12</FormId>
+					<FormName/>
+					<Producer>Jeep</Producer>
+					<ACRISS>IFMN</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>2</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="531.65" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="531.65" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="515.55" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="515.55" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>398</GroupId>
+					<GroupName>CDAR</GroupName>
+					<TypeId>19</TypeId>
+					<TypeName>Golf</TypeName>
+					<FormId>2</FormId>
+					<FormName/>
+					<Producer>VW</Producer>
+					<ACRISS>CDAR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>2</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="385.42" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="385.42" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="373.73" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="373.73" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>395</GroupId>
+					<GroupName>MBMR</GroupName>
+					<TypeId>675</TypeId>
+					<TypeName>Picanto</TypeName>
+					<FormId>3</FormId>
+					<FormName/>
+					<Producer>Kia</Producer>
+					<ACRISS>MBMR</ACRISS>
+					<Doors>3</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>2</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="136.64" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="136.64" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="132.51" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="132.51" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>402</GroupId>
+					<GroupName>SVMR</GroupName>
+					<TypeId>124</TypeId>
+					<TypeName>T5 Caravelle</TypeName>
+					<FormId>10</FormId>
+					<FormName/>
+					<Producer>VW</Producer>
+					<ACRISS>SVMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>9</Adults>
+					<Children>0</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="653.73" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="653.73" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="633.92" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="633.92" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>399</GroupId>
+					<GroupName>CWMR</GroupName>
+					<TypeId>174</TypeId>
+					<TypeName>Focus Kombi</TypeName>
+					<FormId>2</FormId>
+					<FormName/>
+					<Producer>Ford</Producer>
+					<ACRISS>CWMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="364.63" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="364.63" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="353.57" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="353.57" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>396</GroupId>
+					<GroupName>CDMR</GroupName>
+					<TypeId>140</TypeId>
+					<TypeName>Golf</TypeName>
+					<FormId>2</FormId>
+					<FormName/>
+					<Producer>VW</Producer>
+					<ACRISS>CDMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="186.06" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="186.06" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="180.46" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="180.46" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>404</GroupId>
+					<GroupName>CTMR</GroupName>
+					<TypeId>101</TypeId>
+					<TypeName>New Beetle Cabrio</TypeName>
+					<FormId>11</FormId>
+					<FormName/>
+					<Producer>VW</Producer>
+					<ACRISS>CTMR</ACRISS>
+					<Doors>2</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="587.58" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="587.58" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="569.73" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="569.73" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>400</GroupId>
+					<GroupName>IVMR</GroupName>
+					<TypeId>22</TypeId>
+					<TypeName>Touran</TypeName>
+					<FormId>4</FormId>
+					<FormName/>
+					<Producer>VW</Producer>
+					<ACRISS>IVMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>5</Adults>
+					<Children>0</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="407.61" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="407.61" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="395.22" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="395.22" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>394</GroupId>
+					<GroupName>EDMR</GroupName>
+					<TypeId>170</TypeId>
+					<TypeName>Ibiza</TypeName>
+					<FormId>1</FormId>
+					<FormName/>
+					<Producer>Seat</Producer>
+					<ACRISS>EDMR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Picture>car123.jpg</Picture>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="2" Status="13" Name="All Inclusive">
+							<Price Amount="148.19" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="148.19" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Status="13" Name="Basic mit SB">
+							<Price Amount="143.71" Currency="EUR" PromoText="Inkl. Mallorca Bonusheft"/>
+							<PriceStd Amount="143.71" Currency="EUR"/>
+							<Inclusives>
+								<Inclusive>
+									<Code>LMIL</Code>
+									<Id>5</Id>
+									<Value1>500</Value1>
+									<Value2>Km</Value2>
+									<Description>500 Km inklusive</Description>
+									<Class>Mileage</Class>
+									<ClassId>2</ClassId>
+									<ClassCode>MIL</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>LOK</Code>
+									<Id>8</Id>
+									<Description>Lokale Gebühren</Description>
+									<Class>Gebuehren</Class>
+									<ClassId>3</ClassId>
+									<ClassCode>GLOK</ClassCode>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+			</Cars>
+		</CarSupplierAvail>
+	</CarSupplierAvails>
+</RequestorResult>

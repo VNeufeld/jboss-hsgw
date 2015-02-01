@@ -1,0 +1,22 @@
+{ 
+    "administration":{"calledFrom": 5,"language": "de-DE","operator": 200000,"salesChannel": 3,"provider": "Internet","providerId": 1},
+    "agency":{ "agencyId": 18381, "travelAgentId":130046},
+    "travel":
+    {
+	     "pickUpTime":{"date": "2013-05-20","time": "15:40"},
+	     "dropOffTime":{"date": "2013-05-27","time": "15:40"},
+	     "pickUpLocation":
+	      {
+		       "station": {"supplierId": 231255},
+		       "stationId":231256
+	      },
+	     "dropOffLocation":{}
+    },
+    "filter": 
+    {
+           "carGroupId":520,
+           "serviceCatalogId":15,
+           "commissionTypeId":1
+    }
+    
+}

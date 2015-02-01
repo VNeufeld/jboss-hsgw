@@ -21,6 +21,7 @@
         <artifactId>jboss-hsgw</artifactId>
         <groupId>com.bpcs.sunny</groupId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>..\jboss-hsgw\pom.xml</relativePath>
     </parent>
 
     <artifactId>jboss-hsgw-ejb</artifactId>

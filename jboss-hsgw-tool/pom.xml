@@ -5,10 +5,11 @@
 		<groupId>com.bpcs.sunny</groupId>
 		<artifactId>jboss-hsgw</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>..\jboss-hsgw\pom.xml</relativePath>
 	</parent>
-	
+
 	<artifactId>jboss-hsgw-tool</artifactId>
-	
+
 	<version>1.0.1</version>
 
 	<dependencies>
@@ -17,6 +18,23 @@
 			<artifactId>jdom2</artifactId>
 			<version>2.0.5</version>
 		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
 
 	</dependencies>
 </project>

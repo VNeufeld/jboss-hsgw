@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--XML-Beispieldatei von XMLSpy generiert v2007 sp1 (http://www.altova.com)-->
+<RequestorRequest xsi:noNamespaceSchemaLocation="GetCarsByLocationRequest.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<RequestorName sessionId="1234567">XML</RequestorName>
+	<RequestorRequestContent>
+		<Request>
+			<CalledFrom>5</CalledFrom>
+			<DemandedObjects>
+				<DemandedObject>12002</DemandedObject>
+			</DemandedObjects>
+			<Administration>
+				<UserType>P</UserType>
+				<LanguageId>de</LanguageId>
+				<OperatorId>1</OperatorId>
+				<BrokerId>0</BrokerId>
+				<BookingId>1100676/01</BookingId>
+			</Administration>
+			<CarAvailRQCore>
+				<CarRentalCore PickUpTime="09:00" DropOffDate="2009-08-13" LocationType="City" DropOffTime="09:00" AirportStationsOnly="false" PickUpDate="2009-08-13" PickUpType="3">
+					<PickUpLocation Code="1139"/>
+					<DropOffLocation Code="1139"/>
+					<Suppliers>
+						<Supplier>3092</Supplier>
+						<Supplier>41393</Supplier>
+						<Supplier>53513</Supplier>
+						<Supplier>53691</Supplier>
+					</Suppliers>
+				</CarRentalCore>
+				<RateQualifier PromotionCode="PROMOCODE"/>
+			</CarAvailRQCore>
+		</Request>
+	</RequestorRequestContent>
+</RequestorRequest>

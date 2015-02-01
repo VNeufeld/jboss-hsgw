@@ -1,0 +1,12 @@
+{ "administration":{"calledFrom": 5,"language": "de-DE","operator": 200000,"salesChannel": 3,"provider": "Internet","providerId": 1},
+"agency":{ "agencyId": 18381, "travelAgentId":130046},
+"travelSpecification":{
+	"promoCode": "ABCD",
+	"pickUpTime":{"date": "2013-02-20","time": "15:40"},
+	"dropOffTime":{"date": "2013-02-27","time": "15:40"},
+	"pickUpLocation":{"stationId":572},
+	"dropOffLocation":{"stationId":572}
+},
+	"filter": { "stationLocTypeCodes":["CTY"] }
+}
+

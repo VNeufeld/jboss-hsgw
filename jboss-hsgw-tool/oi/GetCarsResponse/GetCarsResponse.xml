@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestorResult id="0" sessionId="AA3BA20711C5143E0C7E968FD34D670E">
+	<Administration>
+		<OperatorId>1</OperatorId>
+		<Currency>EUR</Currency>
+		<Errors/>
+	</Administration>
+	<Payment type="1">
+		<PayState>0</PayState>
+		<CardPayment>
+			<CRCardNumber>4000000000000002</CRCardNumber>
+			<CRCardVendor>Visa</CRCardVendor>
+			<CRCardType>VI</CRCardType>
+			<CRCardValidMM>12</CRCardValidMM>
+			<CRCardValidYY>2012</CRCardValidYY>
+			<OwnerName>Test</OwnerName>
+		</CardPayment>
+	</Payment>
+	<Travel>
+		<BookingId>1077219</BookingId>
+		<BookingNo>1077219/03</BookingNo>
+		<BookingConfirmed>1</BookingConfirmed>
+		<Cancelled>0</Cancelled>
+		<BookingState>OK</BookingState>
+		<PickUpDate>2011-11-11</PickUpDate>
+		<DropOffDate>2011-11-18</DropOffDate>
+		<PickUpTime>10:00</PickUpTime>
+		<DropOffTime>10:00</DropOffTime>
+		<TransferTypeId>2</TransferTypeId>
+		<PickUpStationId>53514</PickUpStationId>
+		<DropOffStationId>53514</DropOffStationId>
+		<PickUpSupplierId>53513</PickUpSupplierId>
+		<DropOffSupplierId>53513</DropOffSupplierId>
+		<Driver>Test</Driver>
+		<DriverFirstName>Test</DriverFirstName>
+		<ServiceCatalogId>43</ServiceCatalogId>
+		<ServiceCatalogName>All Inclusive Plus</ServiceCatalogName>
+		<ServiceCatalogCode>AIP</ServiceCatalogCode>
+		<TotalPrice>8333,50</TotalPrice>
+		<Commission>1586,87</Commission>
+		<CommissionPerc>16,00</CommissionPerc>
+	</Travel>
+	<Cars>
+		<Car>
+			<GroupId>1500</GroupId>
+			<TypeId>766</TypeId>
+			<GroupName>CBAN</GroupName>
+			<SupplierCategory>T1</SupplierCategory>
+			<Producer>Alfa Romeo 206</Producer>
+			<Status>13</Status>
+			<RateCode>T1BB</RateCode>
+			<Form>Cabrio</Form>
+		</Car>
+	</Cars>
+	<Customer>
+		<CustomerNo>A1000000</CustomerNo>
+		<Name>Name_5</Name>
+	</Customer>
+	<Extras>
+		<Extra>
+			<Code>BS</Code>
+			<Name>Babysitz / babyseat (0-1J.)</Name>
+			<Id>7</Id>
+			<Status>0</Status>
+			<Info>0</Info>
+		</Extra>
+		<Extra>
+			<Code>OW INTERN</Code>
+			<Name>Einweggebühr intern.</Name>
+			<Id>35</Id>
+			<Status>0</Status>
+			<Info>0</Info>
+		</Extra>
+	</Extras>
+	<Inclusives>
+		<Inclusive>
+			<Code>BS</Code>
+			<Id>54</Id>
+			<Value1>Test</Value1>
+			<Value2>Test</Value2>
+			<Description>Babysitz / Baby Seat (0-1 years of age)</Description>
+			<Class>Kilometervereinbarung</Class>
+			<ClassId>8</ClassId>
+			<ClassCode>MA</ClassCode>
+		</Inclusive>
+		<Inclusive>
+			<Code>OOO</Code>
+			<Id>53</Id>
+			<Description>Buchungen außerh. Öffnungszeiten / Reservation made outside of office hours.</Description>
+		</Inclusive>
+		<Inclusive>
+			<Code>D</Code>
+			<Id>19</Id>
+			<Description>Zustellung / Delivery</Description>
+		</Inclusive>
+	</Inclusives>
+	<Stations>
+		<PickUpName>Aying</PickUpName>
+		<PickUpSupplier>Bonus Cars</PickUpSupplier>
+		<PickUpHotelDelivery>1</PickUpHotelDelivery>
+		<PickUpAptCode/>
+		<PickUpCrsCode>01</PickUpCrsCode>
+		<PickUpCode>01</PickUpCode>
+		<PickUpTransfer>Transfer zur Station mit dem Courtesy Bus. Abholung außerhalb des Ausgangs der Ankunfthalle, zur rechten Seite. Mit einem blauen Zeichen angezeigt.Bei Fragen bitte 034650461688 anrufen.</PickUpTransfer>
+		<PickUpCountry>Deutschland</PickUpCountry>
+		<PickUpCity>Aying</PickUpCity>
+		<PickUpZipCode>85653</PickUpZipCode>
+		<PickUpStreet>Bayerstr. 12</PickUpStreet>
+		<PickUpPhone/>
+		<PickUpFax/>
+		<PickUpOpeningHours>09:01 - 12:59,14:01 - 18:59</PickUpOpeningHours>
+		<DropOffName>Aying</DropOffName>
+		<DropOffSupplier>Bonus Cars</DropOffSupplier>
+		<DropOffHotelDelivery>1</DropOffHotelDelivery>
+		<DropOffAptCode/>
+		<DropOffCrsCode>01</DropOffCrsCode>
+		<DropOffCode>01</DropOffCode>
+		<DropOffCountry>Deutschland</DropOffCountry>
+		<DropOffCity>Aying</DropOffCity>
+		<DropOffZipCode>85653</DropOffZipCode>
+		<DropOffStreet>Bayerstr. 12</DropOffStreet>
+		<DropOffPhone/>
+		<DropOffFax/>
+		<DropOffOpeningHours>09:01 - 12:59,14:01 - 18:59</DropOffOpeningHours>
+	</Stations>
+	<PartnerInfo>Reservierung, Übernahme und Abbestellung<br/>danach ist BonusCars an die Reservierung nicht mehr gebunden. <br/>Das Fahrzeug ist spätestens 1 Std. nach der vereinbarten Zeit zu Übernehmen,<br/>Reservierungen sind nur verbindlich für Preisgruppen, nicht für Fahrzeugtypen.<br/>EN<br/>This is line one in English for Seson "test1",servcat="All incl.Plus"<br/>This is line two in English for Seson "test1",servcat="All incl.Plus"<br/>This is line three in English for Seson "test1",servcat="All incl.Plus"</PartnerInfo>
+</RequestorResult>

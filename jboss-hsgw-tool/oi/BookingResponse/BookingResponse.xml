@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestorResult id="0" sessionId="11132038798520" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BookingResponse.xsd">
+	<Administration>
+		<Errors>
+		<Error>
+			<ErrorType/>
+			<ErrorText/>
+			<ErrorNo/>
+			<MessageText>INFO_STATUS_CHANGED</MessageText>
+			<MessageType>2</MessageType>
+			<MessageNo>629</MessageNo>
+		</Error>
+		</Errors>
+		<BookStatus>
+			<Reason>
+				<Id>105</Id>
+				<Text>Station: Öffnungszeit Abgabe</Text>
+				<Status>1</Status>
+			</Reason>
+			<Reason>
+				<Id>106</Id>
+				<Text>Supplier: One-Way</Text>
+				<Status>0</Status>
+			</Reason>
+			<Reason>
+				<Id>100</Id>
+				<Text>Car: Stop/Free-Vereinbarung</Text>
+				<Status>0</Status>
+			</Reason>
+		</BookStatus>
+	</Administration>
+	<Travel>
+		<BookingId>0000197/01</BookingId>
+		<CarPrice>121,59</CarPrice>
+		<Status>13</Status>
+		<RateQualifier>123478AGH8517856-7235</RateQualifier>
+	</Travel>
+	<Insurance>
+	  <Price>210,00</Price>
+	  <Id>1</Id>
+	  <Flag>1</Flag>
+	</Insurance>
+</RequestorResult>

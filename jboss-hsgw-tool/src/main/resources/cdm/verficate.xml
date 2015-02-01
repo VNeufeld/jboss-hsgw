@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestorRequest>
+  <RequestorName sessionId="">XML</RequestorName>
+  <RequestorRequestContent>
+    <Request>
+      <CalledFrom>5</CalledFrom>
+      <DemandedObjects>
+        <DemandedObject>10050</DemandedObject>
+      </DemandedObjects>
+      <Administration>
+        <UserType>P</UserType>
+        <LanguageId>de</LanguageId>
+        <OperatorId>1</OperatorId>
+        <Broker>1</Broker>
+        <BrokerId>38648</BrokerId>
+        <OutputConfiguration>
+          <ErrorFormat multiple="true"/>
+        </OutputConfiguration>
+      </Administration>
+      <Customer>
+        <LogIn/>
+        <PartnerNo>56447</PartnerNo>
+        <CustomerNo>P1049544</CustomerNo>
+        <CustomerType>4</CustomerType>
+        <Password/>
+        <SalutationId>1</SalutationId>
+        <Name>Mustermann</Name>
+        <FirstName>Hans</FirstName>
+        <Street>Musterstr. 1</Street>
+        <ZipCode>12345</ZipCode>
+        <City>Musterstadt</City>
+        <CountryId>1</CountryId>
+        <PhoneCountry>+49</PhoneCountry>
+        <PhoneArea>123</PhoneArea>
+        <PhoneExt>456789</PhoneExt>
+        <FaxCountry>+49</FaxCountry>
+        <FaxArea>331</FaxArea>
+        <FaxExt>987654</FaxExt>
+        <EMail>test@test.sk</EMail>
+        <CreditCard>
+          <Id>2</Id>
+          <Number>4000000000000002</Number>
+          <ValidUntil>2015-12-01</ValidUntil>
+          <CVC>123</CVC>
+          <Holder>Heinz Mustermann</Holder>
+          <Active>1</Active>
+        </CreditCard>
+        <DateOfBirth>1950-01-01</DateOfBirth>
+        <DocChannel>1</DocChannel>
+      </Customer>
+      <Travel>
+        <PromoCode/>
+        <Status>13</Status>
+        <PickUpDate>2013-11-06</PickUpDate>
+        <DropOffDate>2013-11-17</DropOffDate>
+        <PickUpTime>10:00</PickUpTime>
+        <DropOffTime>10:00</DropOffTime>
+        <PickUpType>3</PickUpType>
+        <FlightNo/>
+        <HotelName>Müllberg</HotelName>
+        <HotelStreet>Münsterstr 122</HotelStreet>
+        <HotelCity>Petersdorf</HotelCity>
+        <ServCatId>43</ServCatId>
+        <CountryId>3</CountryId>
+        <CityId>0</CityId>
+        <PickUpStationId>53514</PickUpStationId>
+        <DropOffStationId>53514</DropOffStationId>
+        <PickUpSupplierId>53513</PickUpSupplierId>
+        <DropOffSupplierId>53513</DropOffSupplierId>
+        <DriverTitle>2</DriverTitle>
+        <DriverSalutation>1</DriverSalutation>
+        <DriverName>Mustermann</DriverName>
+        <DriverFirstName>Hans</DriverFirstName>
+        <DoBDriver/>
+        <TotalPrice>215,04</TotalPrice>
+        <AdditionalDriver>Test Test</AdditionalDriver>
+        <DoBAddDriver>1980-01-01</DoBAddDriver>
+      </Travel>
+      <Car>
+        <GroupId>1494</GroupId>
+        <GroupName>CDMR</GroupName>
+        <Producer>Renault</Producer>
+        <Type>Megáne</Type>
+        <Price>215,04</Price>
+        <Status>13</Status>
+      </Car>
+    </Request>
+  </RequestorRequestContent>
+</RequestorRequest>

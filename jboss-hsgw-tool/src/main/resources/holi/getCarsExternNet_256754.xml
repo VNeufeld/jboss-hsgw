@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RequestorRequest xmlns:ns2="common">
+    <RequestorName sessionId="">XML</RequestorName>
+    <RequestorRequestContent>
+        <Request>
+            <ns2:CalledFrom>5</ns2:CalledFrom>
+            <DemandedObjects>
+                <DemandedObject>10002</DemandedObject>
+            </DemandedObjects>
+            <Administration>
+                <ns2:UserType>P</ns2:UserType>
+                <ns2:LanguageId>de-DE</ns2:LanguageId>
+                <ns2:OperatorId>200000</ns2:OperatorId>
+                <ns2:SalesChannelId>3</ns2:SalesChannelId>
+                <ns2:Provider>Internet</ns2:Provider>
+                <ns2:ProviderId>1</ns2:ProviderId>
+                <ns2:JoiFlag>1</ns2:JoiFlag>
+            </Administration>
+            <Agency>
+                <ns2:AgencyId>18381</ns2:AgencyId>
+                <ns2:TerminalId xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <ns2:TravelAgentBooking>0</ns2:TravelAgentBooking>
+            </Agency>
+            <Travel>
+                <ns2:PromoCode>ABCD</ns2:PromoCode>
+                <ns2:Airport>PMI</ns2:Airport>
+
+                <ns2:PickUpSupplierId>256754</ns2:PickUpSupplierId>
+                <ns2:PickUpDate>2013-06-20</ns2:PickUpDate>
+                <ns2:DropOffDate>2013-06-27</ns2:DropOffDate>
+                <ns2:PickUpTime>15:40</ns2:PickUpTime>
+                <ns2:DropOffTime>15:40</ns2:DropOffTime>
+            </Travel>
+        </Request>
+    </RequestorRequestContent>
+</RequestorRequest>

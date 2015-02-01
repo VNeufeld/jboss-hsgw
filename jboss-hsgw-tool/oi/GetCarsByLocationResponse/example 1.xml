@@ -1,0 +1,1239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RequestorResult id="0" sessionId="1b048141-7047-41b1-ad94-38c85dcf0f85">
+	<Administration>
+		<UserType>P</UserType>
+		<LanguageId>de</LanguageId>
+		<OperatorId>1</OperatorId>
+		<BrokerId>0</BrokerId>
+	</Administration>
+	<CarAvailRSCore>
+		<CarRentalCore PickUpDate="2013-10-13" PickUpTime="09:00" DropOffDate="2013-10-20" DropOffTime="17:30" LocationType="Airport" AirportStationsOnly="false">
+			<PickUpLocation Code="MUC" />
+			<DropOffLocation Code="MUC" />
+		</CarRentalCore>
+	</CarAvailRSCore>
+	<CarSupplierAvails>
+		<CarSupplierAvail>
+			<Supplier Id="54127" Name="Avis XML" />
+			<OffAirport>0</OffAirport>
+			<OffTerminal>1</OffTerminal>
+					<Station mode="pickUp">
+						<StationId>54129</StationId>
+						<TomaId/>
+					</Station>
+					<Station1 mode="dropOff">
+						<StationId>54129</StationId>
+						<TomaId>02</TomaId>
+					</Station1>
+			
+			<Cars>
+				<Car>
+					<GroupId>1599</GroupId>
+					<GroupName>CDMR</GroupName>
+					<TypeId>0</TypeId>
+					<TypeName/>
+					<FormId>2</FormId>
+					<FormName>compact car</FormName>
+					<Producer>Seat Leon</Producer>
+					<ACRISS>CDMR</ACRISS>
+					<Doors>4</Doors>
+					<Seats>0</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>0</Adults>
+					<Children>0</Children>
+					<LuggageLarge>0</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Unspecified</FuelType>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="393.79" Currency="EUR" PromoText="" />
+							<PriceStd Amount="346.52" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Code="BMSB" Status="13" Name="Basic mit SB">
+							<Price Amount="393.79" Currency="EUR" PromoText="" />
+							<PriceStd Amount="346.52" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>7</Id>
+									<Description>Babysitz / babyseat (0-1J.)</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="2" Code="AI" Status="13" Name="All Inclusive">
+							<Price Amount="393.79" Currency="EUR" PromoText="" />
+							<PriceStd Amount="346.52" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>TKFTOE</Code>
+									<Id>16</Id>
+									<Value1>full</Value1>
+									<Value2>empty</Value2>
+									<Description>Tankregelung ist full empty</Description>
+									<Class>Tankregelungsvereinbarung</Class>
+									<ClassId>4</ClassId>
+									<ClassCode>FRA</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>GLOK</Code>
+									<Id>28</Id>
+									<Description>Lokale Gebuehren</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>1685</GroupId>
+					<GroupName>CXMR</GroupName>
+					<TypeId>0</TypeId>
+					<TypeName/>
+					<FormId>2</FormId>
+					<FormName>compact special</FormName>
+					<Producer>Volkswagen Golf</Producer>
+					<ACRISS>CXMR</ACRISS>
+					<Doors>0</Doors>
+					<Seats>0</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>0</Adults>
+					<Children>0</Children>
+					<LuggageLarge>0</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Unspecified</FuelType>
+					<Station mode="pickUp">
+						<StationId>54129</StationId>
+						<TomaId/>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54129</StationId>
+						<TomaId>02</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="430.10" Currency="EUR" PromoText="" />
+							<PriceStd Amount="378.48" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Code="BMSB" Status="13" Name="Basic mit SB">
+							<Price Amount="430.10" Currency="EUR" PromoText="" />
+							<PriceStd Amount="378.48" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>7</Id>
+									<Description>Babysitz / babyseat (0-1J.)</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="2" Code="AI" Status="13" Name="All Inclusive">
+							<Price Amount="430.10" Currency="EUR" PromoText="" />
+							<PriceStd Amount="378.48" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>TKFTOE</Code>
+									<Id>16</Id>
+									<Value1>full</Value1>
+									<Value2>empty</Value2>
+									<Description>Tankregelung ist full empty</Description>
+									<Class>Tankregelungsvereinbarung</Class>
+									<ClassId>4</ClassId>
+									<ClassCode>FRA</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>GLOK</Code>
+									<Id>28</Id>
+									<Description>Lokale Gebuehren</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>1686</GroupId>
+					<GroupName>IDMR</GroupName>
+					<TypeId>0</TypeId>
+					<TypeName/>
+					<FormId>5</FormId>
+					<FormName>intermediate car</FormName>
+					<Producer>Mercedes B Class</Producer>
+					<ACRISS>IDMR</ACRISS>
+					<Doors>4</Doors>
+					<Seats>0</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>0</Adults>
+					<Children>0</Children>
+					<LuggageLarge>0</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Unspecified</FuelType>
+					<Station mode="pickUp">
+						<StationId>54129</StationId>
+						<TomaId/>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54129</StationId>
+						<TomaId>02</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="423.13" Currency="EUR" PromoText="" />
+							<PriceStd Amount="372.34" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Code="BMSB" Status="13" Name="Basic mit SB">
+							<Price Amount="423.13" Currency="EUR" PromoText="" />
+							<PriceStd Amount="372.34" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>7</Id>
+									<Description>Babysitz / babyseat (0-1J.)</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="2" Code="AI" Status="13" Name="All Inclusive">
+							<Price Amount="423.13" Currency="EUR" PromoText="" />
+							<PriceStd Amount="372.34" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>TKFTOE</Code>
+									<Id>16</Id>
+									<Value1>full</Value1>
+									<Value2>empty</Value2>
+									<Description>Tankregelung ist full empty</Description>
+									<Class>Tankregelungsvereinbarung</Class>
+									<ClassId>4</ClassId>
+									<ClassCode>FRA</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>GLOK</Code>
+									<Id>28</Id>
+									<Description>Lokale Gebuehren</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>1557</GroupId>
+					<GroupName>PVMR</GroupName>
+					<TypeId>0</TypeId>
+					<TypeName/>
+					<FormId>7</FormId>
+					<FormName>premium van</FormName>
+					<Producer>Mercedes Vito</Producer>
+					<ACRISS>PVMR</ACRISS>
+					<Doors>0</Doors>
+					<Seats>0</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>0</Adults>
+					<Children>0</Children>
+					<LuggageLarge>0</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Unspecified</FuelType>
+					<Station mode="pickUp">
+						<StationId>54129</StationId>
+						<TomaId/>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54129</StationId>
+						<TomaId>02</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="954.50" Currency="EUR" PromoText="" />
+							<PriceStd Amount="839.93" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Code="BMSB" Status="13" Name="Basic mit SB">
+							<Price Amount="954.50" Currency="EUR" PromoText="" />
+							<PriceStd Amount="839.93" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>7</Id>
+									<Description>Babysitz / babyseat (0-1J.)</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="2" Code="AI" Status="13" Name="All Inclusive">
+							<Price Amount="954.50" Currency="EUR" PromoText="" />
+							<PriceStd Amount="839.93" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>TKFTOE</Code>
+									<Id>16</Id>
+									<Value1>full</Value1>
+									<Value2>empty</Value2>
+									<Description>Tankregelung ist full empty</Description>
+									<Class>Tankregelungsvereinbarung</Class>
+									<ClassId>4</ClassId>
+									<ClassCode>FRA</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>GLOK</Code>
+									<Id>28</Id>
+									<Description>Lokale Gebuehren</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>1542</GroupId>
+					<GroupName>CDAR</GroupName>
+					<TypeId>0</TypeId>
+					<TypeName/>
+					<FormId>2</FormId>
+					<FormName>compact car</FormName>
+					<Producer>Mercedes A Klasse</Producer>
+					<ACRISS>CDAR</ACRISS>
+					<Doors>4</Doors>
+					<Seats>0</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>0</Adults>
+					<Children>0</Children>
+					<LuggageLarge>0</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Unspecified</FuelType>
+					<Station mode="pickUp">
+						<StationId>54129</StationId>
+						<TomaId/>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54129</StationId>
+						<TomaId>02</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="423.13" Currency="EUR" PromoText="" />
+							<PriceStd Amount="372.34" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Code="BMSB" Status="13" Name="Basic mit SB">
+							<Price Amount="423.13" Currency="EUR" PromoText="" />
+							<PriceStd Amount="372.34" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>7</Id>
+									<Description>Babysitz / babyseat (0-1J.)</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="2" Code="AI" Status="13" Name="All Inclusive">
+							<Price Amount="423.13" Currency="EUR" PromoText="" />
+							<PriceStd Amount="372.34" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>TKFTOE</Code>
+									<Id>16</Id>
+									<Value1>full</Value1>
+									<Value2>empty</Value2>
+									<Description>Tankregelung ist full empty</Description>
+									<Class>Tankregelungsvereinbarung</Class>
+									<ClassId>4</ClassId>
+									<ClassCode>FRA</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>GLOK</Code>
+									<Id>28</Id>
+									<Description>Lokale Gebuehren</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>1555</GroupId>
+					<GroupName>FVMR</GroupName>
+					<TypeId>0</TypeId>
+					<TypeName/>
+					<FormId>6</FormId>
+					<FormName>fullsize van</FormName>
+					<Producer>Ford Galaxy</Producer>
+					<ACRISS>FVMR</ACRISS>
+					<Doors>0</Doors>
+					<Seats>0</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>0</Adults>
+					<Children>0</Children>
+					<LuggageLarge>0</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Unspecified</FuelType>
+					<Station mode="pickUp">
+						<StationId>54129</StationId>
+						<TomaId/>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54129</StationId>
+						<TomaId>02</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="688.82" Currency="EUR" PromoText="" />
+							<PriceStd Amount="606.14" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Code="BMSB" Status="13" Name="Basic mit SB">
+							<Price Amount="688.82" Currency="EUR" PromoText="" />
+							<PriceStd Amount="606.14" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>7</Id>
+									<Description>Babysitz / babyseat (0-1J.)</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="2" Code="AI" Status="13" Name="All Inclusive">
+							<Price Amount="688.82" Currency="EUR" PromoText="" />
+							<PriceStd Amount="606.14" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>TKFTOE</Code>
+									<Id>16</Id>
+									<Value1>full</Value1>
+									<Value2>empty</Value2>
+									<Description>Tankregelung ist full empty</Description>
+									<Class>Tankregelungsvereinbarung</Class>
+									<ClassId>4</ClassId>
+									<ClassCode>FRA</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>GLOK</Code>
+									<Id>28</Id>
+									<Description>Lokale Gebuehren</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>1554</GroupId>
+					<GroupName>CWMR</GroupName>
+					<TypeId>0</TypeId>
+					<TypeName/>
+					<FormId>2</FormId>
+					<FormName>compact station wagon</FormName>
+					<Producer>Ford Focus Turnier</Producer>
+					<ACRISS>CWMR</ACRISS>
+					<Doors>0</Doors>
+					<Seats>0</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>0</Adults>
+					<Children>0</Children>
+					<LuggageLarge>0</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Unspecified</FuelType>
+					<Station mode="pickUp">
+						<StationId>54129</StationId>
+						<TomaId/>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54129</StationId>
+						<TomaId>02</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="416.13" Currency="EUR" PromoText="" />
+							<PriceStd Amount="366.18" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Code="BMSB" Status="13" Name="Basic mit SB">
+							<Price Amount="416.13" Currency="EUR" PromoText="" />
+							<PriceStd Amount="366.18" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>7</Id>
+									<Description>Babysitz / babyseat (0-1J.)</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="2" Code="AI" Status="13" Name="All Inclusive">
+							<Price Amount="416.13" Currency="EUR" PromoText="" />
+							<PriceStd Amount="366.18" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OW INTERN</Code>
+									<Id>35</Id>
+									<Description>Einweggebuehr intern.</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>TKFTOE</Code>
+									<Id>16</Id>
+									<Value1>full</Value1>
+									<Value2>empty</Value2>
+									<Description>Tankregelung ist full empty</Description>
+									<Class>Tankregelungsvereinbarung</Class>
+									<ClassId>4</ClassId>
+									<ClassCode>FRA</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>GLOK</Code>
+									<Id>28</Id>
+									<Description>Lokale Gebuehren</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+			</Cars>
+		</CarSupplierAvail>
+		<CarSupplierAvail>
+			<Supplier Id="53727" Name="Hertz - XML- Mallorca" />
+			<OffAirport>0</OffAirport>
+			<OffTerminal>0</OffTerminal>
+			<Cars>
+				<Car>
+					<GroupId>1579</GroupId>
+					<GroupName>ECMN</GroupName>
+					<TypeId>0</TypeId>
+					<TypeName/>
+					<FormId>1</FormId>
+					<FormName>economy car</FormName>
+					<Producer>A6 Toyota Yaris</Producer>
+					<ACRISS>ECMN</ACRISS>
+					<Doors>4</Doors>
+					<Seats>0</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>0</Children>
+					<LuggageLarge>3</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Unspecified</FuelType>
+					<Picture>ZEESECMN999.jpg</Picture>
+					<Station mode="pickUp">
+						<StationId>56468</StationId>
+						<TomaId/>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>56468</StationId>
+						<TomaId/>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="341.48" Currency="EUR" PromoText="" />
+							<PriceStd Amount="300.49" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="28" Code="BMSB" Status="13" Name="Basic mit SB">
+							<Price Amount="341.48" Currency="EUR" PromoText="" />
+							<PriceStd Amount="300.49" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>7</Id>
+									<Description>Babysitz / babyseat (0-1J.)</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="2" Code="AI" Status="13" Name="All Inclusive">
+							<Price Amount="341.48" Currency="EUR" PromoText="" />
+							<PriceStd Amount="300.49" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>TKFTOE</Code>
+									<Id>16</Id>
+									<Value1>full</Value1>
+									<Value2>empty</Value2>
+									<Description>Tankregelung ist full empty</Description>
+									<Class>Tankregelungsvereinbarung</Class>
+									<ClassId>4</ClassId>
+									<ClassCode>FRA</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>GLOK</Code>
+									<Id>28</Id>
+									<Description>Lokale Gebuehren</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+			</Cars>
+		</CarSupplierAvail>
+		<CarSupplierAvail>
+			<Supplier Id="53976" Name="ABS München" />
+			<OffAirport>0</OffAirport>
+			<OffTerminal>0</OffTerminal>
+			<Cars>
+				<Car>
+					<GroupId>2133</GroupId>
+					<GroupName>CWMN</GroupName>
+					<TypeId>38</TypeId>
+					<TypeName>Golf Variant</TypeName>
+					<FormId>2</FormId>
+					<FormName>Kompakt             </FormName>
+					<Producer>VW</Producer>
+					<ACRISS>CWMN</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Station mode="pickUp">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="247.28" Currency="EUR" PromoText="" />
+							<PriceStd Amount="217.60" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>1525</GroupId>
+					<GroupName>CDAN</GroupName>
+					<TypeId>80</TypeId>
+					<TypeName>Megane</TypeName>
+					<FormId>2</FormId>
+					<FormName>Kompakt             </FormName>
+					<Producer>Renault</Producer>
+					<ACRISS>CCMR</ACRISS>
+					<Doors>4</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Station mode="pickUp">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="800.03" Currency="EUR" PromoText="" />
+							<PriceStd Amount="704.00" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="2" Code="AI" Status="13" Name="All Inclusive">
+							<Price Amount="181.82" Currency="EUR" PromoText="" />
+							<PriceStd Amount="160.00" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>TKFTOE</Code>
+									<Id>16</Id>
+									<Value1>full</Value1>
+									<Value2>empty</Value2>
+									<Description>Tankregelung ist full empty</Description>
+									<Class>Tankregelungsvereinbarung</Class>
+									<ClassId>4</ClassId>
+									<ClassCode>FRA</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>GLOK</Code>
+									<Id>28</Id>
+									<Description>Lokale Gebuehren</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>2132</GroupId>
+					<GroupName>CTMN</GroupName>
+					<TypeId>296</TypeId>
+					<TypeName>Megane Cabrio</TypeName>
+					<FormId>11</FormId>
+					<FormName>Cabrio              </FormName>
+					<Producer>Renault</Producer>
+					<ACRISS>CTMN</ACRISS>
+					<Doors>2</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Station mode="pickUp">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="218.19" Currency="EUR" PromoText="" />
+							<PriceStd Amount="192.00" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>2135</GroupId>
+					<GroupName>EVMR</GroupName>
+					<TypeId>206</TypeId>
+					<TypeName>Berlingo</TypeName>
+					<FormId>1</FormId>
+					<FormName>Kleinwagen          </FormName>
+					<Producer>Citroën</Producer>
+					<ACRISS>EVMR</ACRISS>
+					<Doors>4</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>3</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>1</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Station mode="pickUp">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="276.37" Currency="EUR" PromoText="" />
+							<PriceStd Amount="243.20" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>2134</GroupId>
+					<GroupName>EFMN</GroupName>
+					<TypeId>552</TypeId>
+					<TypeName>Jimny</TypeName>
+					<FormId>12</FormId>
+					<FormName>Geländewagen        </FormName>
+					<Producer>Suzuki</Producer>
+					<ACRISS>EFMN</ACRISS>
+					<Doors>2</Doors>
+					<Seats>4</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>2</Adults>
+					<Children>2</Children>
+					<LuggageLarge>1</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Station mode="pickUp">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="261.83" Currency="EUR" PromoText="" />
+							<PriceStd Amount="230.40" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>2131</GroupId>
+					<GroupName>CWAR</GroupName>
+					<TypeId>73</TypeId>
+					<TypeName>Astra Kombi</TypeName>
+					<FormId>2</FormId>
+					<FormName>Kompakt             </FormName>
+					<Producer>Opel</Producer>
+					<ACRISS>CWAR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>2</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Station mode="pickUp">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="232.73" Currency="EUR" PromoText="" />
+							<PriceStd Amount="204.80" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>1576</GroupId>
+					<GroupName>CFAR</GroupName>
+					<TypeId>456</TypeId>
+					<TypeName>Outlander</TypeName>
+					<FormId>12</FormId>
+					<FormName>Geländewagen        </FormName>
+					<Producer>Mitsubishi</Producer>
+					<ACRISS>CFAR</ACRISS>
+					<Doors>5</Doors>
+					<Seats>-1</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>4</Adults>
+					<Children>1</Children>
+					<LuggageLarge>2</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Station mode="pickUp">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="203.64" Currency="EUR" PromoText="" />
+							<PriceStd Amount="179.20" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="2" Code="AI" Status="13" Name="All Inclusive">
+							<Price Amount="363.65" Currency="EUR" PromoText="" />
+							<PriceStd Amount="320.00" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>TKFTOE</Code>
+									<Id>16</Id>
+									<Value1>full</Value1>
+									<Value2>empty</Value2>
+									<Description>Tankregelung ist full empty</Description>
+									<Class>Tankregelungsvereinbarung</Class>
+									<ClassId>4</ClassId>
+									<ClassCode>FRA</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>GLOK</Code>
+									<Id>28</Id>
+									<Description>Lokale Gebuehren</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+				<Car>
+					<GroupId>1575</GroupId>
+					<GroupName>CBAN</GroupName>
+					<TypeId>763</TypeId>
+					<TypeName>Colt</TypeName>
+					<FormId>11</FormId>
+					<FormName>Cabrio              </FormName>
+					<Producer>Mitsubishi</Producer>
+					<ACRISS/>
+					<Doors>5</Doors>
+					<Seats>5</Seats>
+					<HorsePower>0</HorsePower>
+					<TrunkSize>0</TrunkSize>
+					<Adults>0</Adults>
+					<Children>0</Children>
+					<LuggageLarge>0</LuggageLarge>
+					<LuggageSmall>0</LuggageSmall>
+					<FuelType>Benziner</FuelType>
+					<Station mode="pickUp">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<Station mode="dropOff">
+						<StationId>54727</StationId>
+						<TomaId>15</TomaId>
+					</Station>
+					<ServiceCatalogs>
+						<ServiceCatalog Id="43" Code="AIP" Status="13" Name="All Inclusive Plus">
+							<Price Amount="654.57" Currency="EUR" PromoText="" />
+							<PriceStd Amount="576.00" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>OOO</Code>
+									<Id>53</Id>
+									<Description>Buchungen ausserh. Oeffnungszeiten</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+						<ServiceCatalog Id="2" Code="AI" Status="13" Name="All Inclusive">
+							<Price Amount="90.91" Currency="EUR" PromoText="" />
+							<PriceStd Amount="80.00" Currency="EUR" />
+							<Inclusives>
+								<Inclusive>
+									<Code>BS</Code>
+									<Id>54</Id>
+									<Description>Babysitz</Description>
+								</Inclusive>
+								<Inclusive>
+									<Code>TKFTOE</Code>
+									<Id>16</Id>
+									<Value1>full</Value1>
+									<Value2>empty</Value2>
+									<Description>Tankregelung ist full empty</Description>
+									<Class>Tankregelungsvereinbarung</Class>
+									<ClassId>4</ClassId>
+									<ClassCode>FRA</ClassCode>
+								</Inclusive>
+								<Inclusive>
+									<Code>GLOK</Code>
+									<Id>28</Id>
+									<Description>Lokale Gebuehren</Description>
+								</Inclusive>
+							</Inclusives>
+						</ServiceCatalog>
+					</ServiceCatalogs>
+				</Car>
+			</Cars>
+		</CarSupplierAvail>
+	</CarSupplierAvails>
+</RequestorResult>

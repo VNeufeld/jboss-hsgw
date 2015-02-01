@@ -17,6 +17,7 @@
 		<artifactId>jboss-hsgw</artifactId>
 		<groupId>com.bpcs.sunny</groupId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>..\jboss-hsgw\pom.xml</relativePath>
 	</parent>
 
 	<artifactId>jboss-hsgw-ear</artifactId>
@@ -50,7 +51,6 @@
 			<groupId>com.bpcs.sunny</groupId>
 			<artifactId>jboss-hsgw-tool</artifactId>
 			<type>jar</type>
-			<version>1.0.1</version>
 		</dependency>
 	</dependencies>
 

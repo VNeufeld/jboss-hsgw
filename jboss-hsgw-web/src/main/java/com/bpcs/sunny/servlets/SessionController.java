@@ -7,6 +7,7 @@ import java.util.logging.Logger;
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
+import javax.xml.bind.JAXBException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -22,6 +23,7 @@ import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
 import com.bpcs.sunny.util.ServiceFactory;
+import com.bpcs.suny.tool.xml.HsgwXmlRequest;
 import com.bpcs.suny.tool.xml.JDom2Helper;
 
 @RequestScoped
@@ -36,21 +38,19 @@ public class SessionController {
 
 		org.jdom2.Document jdom2 = null;
 		try {
-			Document doc = loadXMLFrom(xml);
+			
+			HsgwXmlRequest hsgwXmlRequest  = new HsgwXmlRequest(xml);
+			String sessionId = hsgwXmlRequest.getSessionId();
+			Integer demandedObject = hsgwXmlRequest.getDemandedObject();
+			
+			
+			String result = serviceFactory.createService(demandedObject).execute(hsgwXmlRequest);
+			return result;
 
-			jdom2 = JDom2Helper.getJDom2FromW3cDom(doc);
-
-			DOMOutputter domOutputer = new DOMOutputter();
-			// create the w3c Document from the JDOM2 Document
-			org.w3c.dom.Document dom = domOutputer.output(jdom2);
-
-		} catch (TransformerException | JDOMException e) {
-			// TODO Auto-generated catch block
+		} catch (JAXBException e) {
 			e.printStackTrace();
 		}
-
-		String result = serviceFactory.createService(1).execute(xml);
-		return result;
+		return null;
 	}
 
 	private Document parseXml(String xml) {

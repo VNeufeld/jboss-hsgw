@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestorRequest  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GetExtrasRequest.xsd">
+	<RequestorName sessionId="">XML</RequestorName>
+	<RequestorRequestContent>
+		<Request>
+			<CalledFrom>5</CalledFrom>
+			<DemandedObjects>
+				<DemandedObject>10005</DemandedObject>
+			</DemandedObjects>
+			<Administration>
+				<UserType>P</UserType>
+				<LanguageId>de</LanguageId>
+				<OperatorId>1</OperatorId>
+				<BrokerId>15048</BrokerId>
+				<ServCatId>2</ServCatId>
+				<PickUpSupplierId>53513</PickUpSupplierId>
+				<PickUpDate>2013-06-27</PickUpDate>
+			</Administration>
+		</Request>
+	</RequestorRequestContent>
+</RequestorRequest>

@@ -7,6 +7,7 @@ import javax.inject.Inject;
 
 import com.bpcs.sunny.data.CurrencyCache;
 import com.bpcs.sunny.service.FacadeService;
+import com.bpcs.suny.tool.xml.HsgwXmlRequest;
 
 @RequestScoped
 public class BookingService /* extends AbstractService */ implements IHsgwService {
@@ -43,6 +44,12 @@ public class BookingService /* extends AbstractService */ implements IHsgwServic
 		
 		return sb.toString();
 
+	}
+
+	@Override
+	public String execute(HsgwXmlRequest request) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

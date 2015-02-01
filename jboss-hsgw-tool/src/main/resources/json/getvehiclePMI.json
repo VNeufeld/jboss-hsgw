@@ -1,0 +1,39 @@
+ {
+       "administration":
+       {
+           "calledFrom": 5,
+           "language": "1",
+           "operator": 200000,
+           "salesChannel": 3,
+           "provider": "Internet",
+           "providerId": 1
+       },
+       "agency":
+       {
+           "agencyId": 18381,
+           "travelAgentId":130046
+       },
+       "travel":
+       {
+           "pickUpTime":
+           {
+               "date": "2013-05-20",
+               "time": "15:40"
+           },
+           "dropOffTime":
+           {
+               "date": "2013-05-27",
+               "time": "15:40"
+           },
+           "pickUpLocation":
+           {
+               "airport": "PMI"
+
+           },
+           "dropOffLocation":
+           {
+           }
+
+       }
+    }
+

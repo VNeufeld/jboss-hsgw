@@ -1,0 +1,7 @@
+<root>
+  <facet id="jpt.jaxb">
+    <node name="classgen">
+      <attribute name="package" value="com.bpcs.suny.tool.xml.request.getcars"/>
+    </node>
+  </facet>
+</root>

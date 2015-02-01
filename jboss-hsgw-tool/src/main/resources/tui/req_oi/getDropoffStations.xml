@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestorRequest>
+	<RequestorName sessionId="">XML</RequestorName>
+	<RequestorRequestContent>
+		<Request>
+			<CalledFrom>6</CalledFrom>
+			<DemandedObjects>
+				<DemandedObject>11004</DemandedObject>
+			</DemandedObjects>
+			<Administration>
+				<UserType>P</UserType>
+				<LanguageId>de</LanguageId>
+				<OperatorId>1</OperatorId>
+				<SalesChannelId>-1</SalesChannelId>
+				<Provider>IPBBCC</Provider>
+				<TransactionId>3748313691547872114</TransactionId>
+				<UpgradeListMode>0</UpgradeListMode>
+				<UpgradeMode>0</UpgradeMode>
+			</Administration>
+			<Travel>
+				<CountryId>43</CountryId>
+				<PickUpStationId>4337</PickUpStationId>
+				<PickUpSupplierId>6704</PickUpSupplierId>
+			</Travel>
+		</Request>
+	</RequestorRequestContent>
+</RequestorRequest>

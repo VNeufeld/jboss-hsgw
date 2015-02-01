@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestorRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BookingRequest.xsd">
+	<RequestorName sessionId="">XML</RequestorName>
+	<RequestorRequestContent>
+		<Request>
+			<CalledFrom>5</CalledFrom>
+			<DemandedObjects>
+				<DemandedObject>19999</DemandedObject>
+			</DemandedObjects>
+			<Administration>
+				<UserType>P</UserType>
+				<LanguageId>de</LanguageId>
+				<OperatorId>1</OperatorId>
+				<Broker>1</Broker>
+				<BrokerId>523</BrokerId>
+				<BrokerSubExtRef>0815</BrokerSubExtRef>
+				<Provider>123</Provider>
+			
+			</Administration>
+			<Customer>
+				<LogIn>P1004401</LogIn>
+				<PartnerNo>6292</PartnerNo>
+				<CustomerNo>P1004401</CustomerNo>
+				<CustomerType>4</CustomerType>
+				<Password>27216</Password>
+				<Name>Mustermann</Name>
+				<FirstName>Hans</FirstName>
+				<Street>Musterstr. 1</Street>
+				<ZipCode>12345</ZipCode>
+				<City>Musterstadt</City>
+				<CountryId>1</CountryId>
+				<PhoneCountry>+49</PhoneCountry>
+				<PhoneArea>123</PhoneArea>
+				<PhoneExt>456789</PhoneExt>
+				<FaxCountry>+49</FaxCountry>
+				<FaxArea>331</FaxArea>
+				<FaxExt>987654</FaxExt>
+				<EMail>test@test.sk</EMail>
+				<CreditCard>
+					<Id>2</Id>
+					<Number>4000000000000002</Number>
+					<ValidUntil>2009-02-01</ValidUntil>
+					<CVC>123</CVC>
+					<Holder>Heinz Mustermann</Holder>
+					<Active>1</Active>
+				</CreditCard>
+				<BonusCard>
+					<Id>8</Id>
+					<Number>4000000000000002</Number>
+					<Holder>Heinz Mustermann</Holder>
+				</BonusCard>
+				<DateOfBirth>1950-01-01</DateOfBirth>
+				<DocChannel>1</DocChannel>
+			</Customer>
+			<Travel>
+				<PromoCode/>
+				<Status>0</Status>
+				<PickUpDate>2009-05-23</PickUpDate>
+				<DropOffDate>2009-05-29</DropOffDate>
+				<PickUpTime>10:00</PickUpTime>
+				<DropOffTime>10:00</DropOffTime>
+				<PickUpType>1</PickUpType>
+				<FlightNo>lh123</FlightNo>
+				<HotelName/>
+				<HotelStreet/>
+				<HotelCity/>
+				<ServCatId>2</ServCatId>
+				<CountryId>1</CountryId>
+				<CityId>0</CityId>
+				<PickUpStationId>547</PickUpStationId>
+				<DropOffStationId>547</DropOffStationId>
+				<PickUpSupplierId>6</PickUpSupplierId>
+				<DropOffSupplierId>6</DropOffSupplierId>
+				<DriverTitle>2</DriverTitle>
+				<DriverName>Mustermann</DriverName>
+				<DriverFirstName>Hans</DriverFirstName>
+				<DoBDriver>1950-01-01</DoBDriver>
+				<TotalPrice>215,04</TotalPrice>
+				<AdditionalDriver>Karl Mustermann</AdditionalDriver>
+				<DoBAddDriver>1952-01-01</DoBAddDriver>
+			</Travel>
+			<Car>
+				<GroupId>330</GroupId>
+				<GroupName>CDMR</GroupName>
+				<Producer>Renault</Producer>
+				<Type>Megáne</Type>
+				<Price>215,04</Price>
+				<Status>13</Status>
+			</Car>
+		</Request>
+	</RequestorRequestContent>
+</RequestorRequest>

@@ -6,6 +6,8 @@ import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 
 import com.bpcs.sunny.service.FacadeService;
+import com.bpcs.suny.tool.xml.HsgwGetCarsXmlRequest;
+import com.bpcs.suny.tool.xml.HsgwXmlRequest;
 
 @RequestScoped
 public class GetCarsService /* extends AbstractService */ implements IHsgwService {
@@ -38,6 +40,16 @@ public class GetCarsService /* extends AbstractService */ implements IHsgwServic
 		
 		return sb.toString();
 
+	}
+
+	@Override
+	public String execute(HsgwXmlRequest request) {
+		
+		HsgwGetCarsXmlRequest getCarsRequest = new HsgwGetCarsXmlRequest(request) ;
+		//CarsInTo inTo = createTO(getCarsRequest);
+		
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

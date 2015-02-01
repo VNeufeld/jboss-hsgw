@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RequestorRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GetCarsRequest.xsd">
+	<RequestorName sessionId="">XML</RequestorName>
+	<RequestorRequestContent>
+		<Request>
+			<CalledFrom>5</CalledFrom>
+			<DemandedObjects>
+				<DemandedObject>10002</DemandedObject>
+			</DemandedObjects>
+			<Administration>
+				<UserType>P</UserType>
+				<LanguageId>de</LanguageId>
+				<OperatorId>1</OperatorId>
+			</Administration>
+			<Travel>
+				<PromoCode/>
+				<ServCatId>2</ServCatId>
+				<PickUpDate>2008-09-26</PickUpDate>
+				<DropOffDate>2008-09-29</DropOffDate>
+				<PickUpTime>10:00</PickUpTime>
+				<DropOffTime>10:00</DropOffTime>
+				<PickUpStationId>547</PickUpStationId>
+				<DropOffStationId>547</DropOffStationId>
+				<PickUpSupplierId>6</PickUpSupplierId>
+				<DropOffSupplierId>6</DropOffSupplierId>
+			</Travel>
+		</Request>
+	</RequestorRequestContent>
+</RequestorRequest>

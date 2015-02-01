@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2007 sp2 (http://www.altova.com) von XMLSpy 2007 Professional Ed., Installed for 2 users (with SMP from 2006-12-12 to 2007-12-13) (BPCS GmbH) bearbeitet -->
+<xs:schema xmlns:com="common" xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:complexType name="CarRentalCoreType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The VehicleRentalCoreType complex type identifies the data that is common, or core, to almost every transaction associated with the rental of a vehicle.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="PickUpLocation" type="LocationCode">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">A code to identify the pick up location, along with an optional code context.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DropOffLocation" type="LocationCode">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">A code to identify the return location, along with an optional code context.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Suppliers" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Supplier" type="xs:long" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="LocationType" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Used to indicate the type of a location (e.g., City, Airport).</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="AirportStationsOnly" type="xs:boolean" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">A flag to include only the airport stations.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="PickUpDate" type="RentalDateType" use="required"/>
+		<xs:attribute name="PickUpTime" type="RentalTimeType" use="required"/>
+		<xs:attribute name="DropOffDate" type="RentalDateType" use="required"/>
+		<xs:attribute name="DropOffTime" type="RentalTimeType" use="required"/>
+		<xs:attribute name="PickUpType" use="optional">
+			<xs:annotation>
+					<xs:documentation>A pick up type. 1 = walk in, 2 = airport, 3 = hotel</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:short">
+						<xs:enumeration value="1"/>
+						<xs:enumeration value="2"/>
+						<xs:enumeration value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="Product" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="CarRentalCoreTypeVerify">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The VehicleRentalCoreType complex type identifies the data that is common, or core, to almost every transaction associated with the rental of a vehicle.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="PickUpLocation" type="LocationData">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">A code to identify the pick up location, along with an optional code context.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DropOffLocation" type="LocationData">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">A code to identify the return location, along with an optional code context.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="LocationType" use="required">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Used to indicate the type of a location (must be Station).</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Station"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="PickUpDate" type="RentalDateType" use="required"/>
+		<xs:attribute name="PickUpTime" type="RentalTimeType" use="required"/>
+		<xs:attribute name="DropOffDate" type="RentalDateType" use="required"/>
+		<xs:attribute name="DropOffTime" type="RentalTimeType" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="CarRentalCoreTypeVerifyRS">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The VehicleRentalCoreType complex type identifies the data that is common, or core, to almost every transaction associated with the rental of a vehicle.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="PickUpLocation" type="LocationCode">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">A code to identify the pick up location, along with an optional code context.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DropOffLocation" type="LocationCode">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">A code to identify the return location, along with an optional code context.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="LocationType" use="required">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Used to indicate the type of a location (must be Station).</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Station"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="PickUpDate" type="RentalDateType" use="required"/>
+		<xs:attribute name="PickUpTime" type="RentalTimeType" use="required"/>
+		<xs:attribute name="DropOffDate" type="RentalDateType" use="required"/>
+		<xs:attribute name="DropOffTime" type="RentalTimeType" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="RateQualifierAttributeGroup">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The RateQualifierAttributeGroup complex type defines the rate information that is common to all transactions.  Such information may include rate codes, rate type, promotional codes, etc.  This information may be used to determine the rate that is made available.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="PromotionCode" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Promotion code is the identifier used by the host to link directly with a specific named advertising campaign. By including the required code, the client is able to gain access to special offers which may have been created for a specifically targeted group via a CRM system.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="LocationCode">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Code and required string to describe a location point.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="Code" use="required">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">Code used to identify a location.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="LocationData">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">Code and required string to describe a location point.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="Code" use="required">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">Code used to identify a location.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="SupplierId" use="required">
+					<xs:annotation>
+						<xs:documentation xml:lang="en">ID used to identify a supplier.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceCatalogType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The ServiceCatalogType complex type identifies the data that is common, or core, to almost every transaction associated with the rental of a vehicle.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Price" type="PriceTypeAttr">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">The final price after discounts</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PriceStd" type="PriceStdTypeAttr">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">The standard price</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Inclusives" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Inclusive" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:all>
+									<xs:element name="Id" type="xs:long"/>
+									<xs:element name="Code" type="xs:string"/>
+									<xs:element name="Value1" type="xs:string" minOccurs="0"/>
+									<xs:element name="Value2" type="xs:string" minOccurs="0"/>
+									<xs:element name="Description" type="xs:string"/>
+									<xs:element name="Class" type="xs:string" minOccurs="0"/>
+									<xs:element name="ClassId" type="xs:long" minOccurs="0"/>
+									<xs:element name="ClassCode" type="xs:string" minOccurs="0"/>
+								</xs:all>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="Id" type="xs:int" use="required"/>
+		<xs:attribute name="Name" type="xs:string" use="optional"/>
+		<xs:attribute name="Code" type="xs:string" use="optional"/>
+		<xs:attribute name="Status" type="StatusType" use="required">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Used to indicate the status of a available product (e.g., 13-"available", 0-"on request", 1-"stop sale").</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="RateQualifier"/>
+	</xs:complexType>
+	<xs:complexType name="ServiceCatalogTypeVerifyRS">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">The ServiceCatalogType complex type identifies the data that is common, or core, to almost every transaction associated with the rental of a vehicle.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence minOccurs="0">
+			<xs:element name="Price" type="PriceTypeAttr">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">The final price after discounts</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PriceStd" type="PriceStdTypeAttr">
+				<xs:annotation>
+					<xs:documentation xml:lang="en">The standard price</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Inclusives" minOccurs="0">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Inclusive" minOccurs="0" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Code"/>
+									<xs:element name="Id"/>
+									<xs:element name="Value1" minOccurs="0"/>
+									<xs:element name="Value2" minOccurs="0"/>
+									<xs:element name="Description"/>
+									<xs:element name="Class" minOccurs="0"/>
+									<xs:element name="ClassId" minOccurs="0"/>
+									<xs:element name="ClassCode" minOccurs="0"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="Id" type="xs:int"/>
+		<xs:attribute name="Name" type="xs:string" use="optional"/>
+		<xs:attribute name="Status" type="StatusType" use="required">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">Used to indicate the status of a available product (e.g., 13-"available", 0-"on request", 1-"stop sale").</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="RateQualifier"/>
+		<xs:attribute name="RateCode"/>
+	</xs:complexType>
+	<xs:complexType name="PriceTypeAttr">
+		<xs:attributeGroup ref="CurrencyAmountGroup"/>
+		<xs:attribute name="PromoText" use="optional">
+			<xs:annotation>
+				<xs:documentation xml:lang="en">The promotion text</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="PriceStdTypeAttr">
+		<xs:attributeGroup ref="CurrencyAmountGroup"/>
+	</xs:complexType>
+	<xs:attributeGroup name="CurrencyAmountGroup">
+		<xs:attribute name="Amount" use="required">
+			<xs:simpleType>
+				<xs:restriction base="PriceType"/>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="Currency" type="CurrencyType" use="required"/>
+	</xs:attributeGroup>
+	<!-- SIMPLE TYPES DEFINATION -->
+	<xs:simpleType name="RentalDateType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{4}-\d{2}-\d{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="RentalTimeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{2}:\d{2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="PriceType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{1,}\.\d{1,2}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CurrencyType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Z]{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StatusType">
+		<xs:annotation>
+			<xs:documentation xml:lang="en">13-"available", 0-"on request", 1-"stop sale"</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="0"/>
+			<xs:enumeration value="1"/>
+			<xs:enumeration value="13"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="OffTerminalType">
+		<xs:annotation>
+			<xs:documentation>Station is next to flight terminal (1=yes,0=no)</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:int">
+			<xs:pattern value="0|1"/>
+			<xs:enumeration value="0"/>
+			<xs:enumeration value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
