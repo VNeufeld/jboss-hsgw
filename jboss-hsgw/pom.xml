@@ -27,10 +27,10 @@
 		</license>
 	</licenses>
 	<modules>
-		<module>jboss-hsgw-ejb</module>
-		<module>jboss-hsgw-web</module>
-		<module>jboss-hsgw-ear</module>
-		<module>jboss-hsgw-tool</module>
+		<module>../jboss-hsgw-ejb</module>
+		<module>../jboss-hsgw-web</module>
+		<module>../jboss-hsgw-ear</module>
+		<module>../jboss-hsgw-tool</module>
 	</modules>
 
 	<properties>
@@ -83,6 +83,14 @@
 				<artifactId>jboss-hsgw-web</artifactId>
 				<version>${project.version}</version>
 				<type>war</type>
+				<scope>compile</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>com.bpcs.sunny</groupId>
+				<artifactId>jboss-hsgw-tool</artifactId>
+				<type>jar</type>
+				<version>1.0.1</version>
 				<scope>compile</scope>
 			</dependency>
 

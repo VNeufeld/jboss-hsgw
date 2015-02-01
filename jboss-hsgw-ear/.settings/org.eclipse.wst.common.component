@@ -8,5 +8,11 @@
         <dependent-module archiveName="jboss-hsgw-ejb.jar" deploy-path="/" handle="module:/resource/jboss-hsgw-ejb/jboss-hsgw-ejb">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="jboss-hsgw-tool.jar" deploy-path="/lib" handle="module:/resource/jboss-hsgw-tool/jboss-hsgw-tool">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jdom2.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/jdom/jdom2/2.0.5/jdom2-2.0.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>
