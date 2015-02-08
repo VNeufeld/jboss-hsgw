@@ -23,9 +23,11 @@ import org.apache.log4j.Logger;
 //https://gist.githubusercontent.com/jabbrwcky/1751986/raw/b745e16d86a4c75b343671e8bf0944da360a0fb5/InsecureHttpClient.java
 
 public class test2 {
-	
+
+/**	
     protected Logger log = Logger.getLogger(this.getClass());
-    public DefaultHttpClient build HttpClient() {
+    
+    public DefaultHttpClient HttpClient() {
 		hc = new DefaultHttpClient();
 		configureProxy();
 		configureCookieStore();
@@ -63,7 +65,7 @@ public class test2 {
 		SSLSocketFactory sf = null;
 
 		try {
-			/* build socket factory with hostname verification turned off. */
+			// build socket factory with hostname verification turned off. 
 			sf = new SSLSocketFactory(ts, SSLSocketFactory.ALLOW_ALL_HOSTNAME_VERIFIER);
 		} catch (NoSuchAlgorithmException e) {
 			log.error("Failed to initialize SSL handling.", e);
@@ -77,5 +79,6 @@ public class test2 {
 
 		return sf;
 	}
+**/	
 
 }
