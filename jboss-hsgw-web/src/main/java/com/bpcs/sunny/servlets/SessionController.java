@@ -22,6 +22,7 @@ import org.jdom2.output.DOMOutputter;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
+import com.bpcs.sunny.service.ConfigService;
 import com.bpcs.sunny.util.ServiceFactory;
 import com.bpcs.suny.tool.xml.HsgwXmlRequest;
 import com.bpcs.suny.tool.xml.JDom2Helper;
@@ -33,8 +34,13 @@ public class SessionController {
 
 	@Inject
 	private ServiceFactory serviceFactory;
+	
+	@Inject
+	private ConfigService configService;
 
 	public String workXml(String xml) {
+		
+		log.info(" TDVA path = " +configService.getTdvaPath());
 
 		org.jdom2.Document jdom2 = null;
 		try {

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config name ="sunny">
+	<Requestor name="Requestor" path="http://127.0.0.1:5670" active="1" demobj="123,345">value 0</Requestor>
+	<TDVA name="CDM TDVA" path="http://127.0.0.1:5920" active="1"/>
+</Config>

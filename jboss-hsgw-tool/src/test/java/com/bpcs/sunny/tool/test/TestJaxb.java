@@ -16,6 +16,7 @@ import org.w3c.dom.Node;
 
 import com.bpcs.suny.tool.xml.HsgwGetCarsXmlRequest;
 import com.bpcs.suny.tool.xml.HsgwXmlRequest;
+import com.bpcs.suny.tool.xml.ResourceManager;
 import com.bpcs.suny.tool.xml.request.Administration;
 import com.bpcs.suny.tool.xml.request.Request;
 

@@ -24,6 +24,8 @@ public class XmlServlet extends HttpServlet{
 	 @Inject
 	 private SessionController sessionController;
 	 
+	 
+	 
 	 private static  Logger xlog = Logger.getLogger(XmlServlet.class.getName());
 	
 	   /**
