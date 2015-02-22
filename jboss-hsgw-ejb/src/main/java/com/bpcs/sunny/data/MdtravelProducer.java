@@ -8,9 +8,10 @@ import javax.inject.Inject;
 
 import com.bpcs.sunny.service.FacadeService;
 import com.bpcs.sunny.service.SeasonDAO;
+import com.bpcs.sunny.service.UseItemsService;
 
 @RequestScoped
-public class SeasonProducer {
+public class MdtravelProducer {
 
 	@Inject
 	private Logger log;
@@ -24,4 +25,12 @@ public class SeasonProducer {
 		log.info("produce Season "+s);
 		return s;
 	}
+	
+	@Produces
+	public UseItemsService produceUseItemsService() {
+		UseItemsService s = new UseItemsService(facade);
+		log.info("produce Season "+s);
+		return s;
+	}
+	
 }

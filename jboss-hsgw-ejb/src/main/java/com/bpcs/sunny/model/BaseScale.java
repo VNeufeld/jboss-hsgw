@@ -13,6 +13,8 @@ public abstract class BaseScale {
 	private Station pickStation;
 
 	private Station dropStation;
+	
+	private Operator operator;
 
 	public Calendar getPickup() {
 		return pickup;
@@ -60,6 +62,14 @@ public abstract class BaseScale {
 
 	public void setDropStation(Station dropStation) {
 		this.dropStation = dropStation;
+	}
+
+	public Operator getOperator() {
+		return operator;
+	}
+
+	public void setOperator(Operator operator) {
+		this.operator = operator;
 	}
 
 }
