@@ -1,4 +1,4 @@
-package com.bpcs.sunny.util;
+package com.bpcs.sunny.hsgwservice;
 
 import java.util.logging.Logger;
 
@@ -8,6 +8,7 @@ import javax.inject.Inject;
 import com.bpcs.sunny.data.CurrencyCache;
 import com.bpcs.sunny.service.FacadeService;
 import com.bpcs.suny.tool.xml.HsgwXmlRequest;
+import com.bpcs.suny.tool.xml.HsgwXmlResponse;
 
 @RequestScoped
 public class BookingService /* extends AbstractService */ implements IHsgwService {
@@ -47,7 +48,7 @@ public class BookingService /* extends AbstractService */ implements IHsgwServic
 	}
 
 	@Override
-	public String execute(HsgwXmlRequest request) {
+	public HsgwXmlResponse execute(HsgwXmlRequest request) {
 		// TODO Auto-generated method stub
 		return null;
 	}

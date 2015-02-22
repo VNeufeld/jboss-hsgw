@@ -14,7 +14,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.w3c.dom.Node;
 
-import com.bpcs.suny.tool.xml.HsgwGetCarsXmlRequest;
+import com.bpcs.sunny.hsgwservice.HsgwGetCarsXmlRequest;
 import com.bpcs.suny.tool.xml.HsgwXmlRequest;
 import com.bpcs.suny.tool.xml.ResourceManager;
 import com.bpcs.suny.tool.xml.request.Administration;

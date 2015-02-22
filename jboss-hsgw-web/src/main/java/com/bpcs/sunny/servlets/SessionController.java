@@ -22,9 +22,11 @@ import org.jdom2.output.DOMOutputter;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
+import com.bpcs.sunny.hsgwservice.IHsgwService;
+import com.bpcs.sunny.hsgwservice.ServiceFactory;
 import com.bpcs.sunny.service.ConfigService;
-import com.bpcs.sunny.util.ServiceFactory;
 import com.bpcs.suny.tool.xml.HsgwXmlRequest;
+import com.bpcs.suny.tool.xml.HsgwXmlResponse;
 import com.bpcs.suny.tool.xml.JDom2Helper;
 
 @RequestScoped
@@ -49,9 +51,11 @@ public class SessionController {
 			String sessionId = hsgwXmlRequest.getSessionId();
 			Integer demandedObject = hsgwXmlRequest.getDemandedObject();
 			
+			IHsgwService hsgwService = serviceFactory.createService(demandedObject);
 			
-			String result = serviceFactory.createService(demandedObject).execute(hsgwXmlRequest);
-			return result;
+			HsgwXmlResponse result = hsgwService.execute(hsgwXmlRequest);
+			
+			return result.toString();
 
 		} catch (JAXBException e) {
 			e.printStackTrace();

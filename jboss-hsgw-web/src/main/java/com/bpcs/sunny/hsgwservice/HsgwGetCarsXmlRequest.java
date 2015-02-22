@@ -1,9 +1,11 @@
-package com.bpcs.suny.tool.xml;
+package com.bpcs.sunny.hsgwservice;
 
 import javax.xml.bind.JAXBException;
 
 import org.w3c.dom.Node;
 
+import com.bpcs.suny.tool.xml.HsgwXmlRequest;
+import com.bpcs.suny.tool.xml.XmlMarshaller;
 import com.bpcs.suny.tool.xml.request.getcars.Agency;
 import com.bpcs.suny.tool.xml.request.getcars.Travel;
 
