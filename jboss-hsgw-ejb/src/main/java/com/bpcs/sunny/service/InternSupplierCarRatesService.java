@@ -30,15 +30,15 @@ public class InternSupplierCarRatesService implements ICarRatesService {
 		
 		UseItems derivated = useItemsService.getDerivatedUseItems(internSupplierScale.getSupplier(), internSupplierScale.getServiceCatalog());
 		
-		carRates = getCarRatesIntern(internSupplierScale,derivated);
-
-		Currency currOperator = internSupplierScale.getOperator().getCurrency();
-		
-		if ( COST_RATES) {
-			Currency currSupplier = internSupplierScale.getSupplier().getCurrency();
-			applyCostPlusRules(carRates,derivated,internSupplierScale);
-			
-		}
+//		carRates = getCarRatesIntern(internSupplierScale,derivated);
+//
+//		Currency currOperator = internSupplierScale.getOperator().getCurrency();
+//		
+//		if ( COST_RATES) {
+//			Currency currSupplier = internSupplierScale.getSupplier().getCurrency();
+//			applyCostPlusRules(carRates,derivated,internSupplierScale);
+//			
+//		}
 		
 		
 		
